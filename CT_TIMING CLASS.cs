@@ -6,7 +6,7 @@ class Program
     static void Main()
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
-        int[] sizes = { 5000, 10000, 50000, 100000 }; // số lượng phần tử
+        int[] sizes = { 10000, 50000, 100000 }; // số lượng phần tử
         string[] names = {
             "Selection Sort", "Exchange Sort", "Insertion Sort", "Bubble Sort",
             "Quick Sort", "Merge Sort", "Shell Sort", "Heap Sort"
@@ -204,3 +204,4 @@ class Program
         }
     }
 }
+
